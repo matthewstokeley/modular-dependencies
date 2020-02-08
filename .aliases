@@ -1,0 +1,3 @@
+alias dcc="docker-compose"
+alias gitp="git push origin"
+alias list="ls -la | ccze -A"
