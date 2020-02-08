@@ -1,0 +1,34 @@
+[application-framework]
+framework = "vue"
+
+[ci]
+vendor = "circleci"
+
+[component-tests]
+framework = "storybook"
+
+[development-environment]
+typescript = true
+version_control = true
+
+[regression-tests]
+framework = "selenium"
+testing_library = "karma"
+assertion_library = "mocha"
+browserstack_api = ""
+
+[reporting]
+library = "allure"
+backup = "junit"
+
+[snapshot-tests]
+framework = "jest"
+
+[style-framework]
+framework = "bootstrap"
+
+[style-preprocessors]
+preprocessor = "sass"
+
+[unit-tests]
+framework = "jasmine"
