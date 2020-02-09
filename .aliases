@@ -1,3 +1,5 @@
 alias dcc="docker-compose"
 alias gitp="git push origin"
 alias list="ls -la | ccze -A"
+alias lstree="tree --filelimit 30 -C -I node_modules"
+alias lstree_time="tree -L 2 -C -t"

@@ -1,0 +1,103 @@
+#! /usr/local/bash
+
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# This script installs typescript globally
+# in the development environment
+
+
+npm install typescript --save
+
+if [ -e tsconfig.json ]
+	then 
+		touch tsconfig.json && curl https://gist.githubusercontent.com/matthewstokeley/d439bd605e66f49af1e9baf21162170f/raw/a9dcdfe3dea29bc797ea2bd234df13337257afe2/tsconfig.json >> tsconfig.json
+fi
+
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Machine Formatting
+
+# Prettier support
+
+# if [ -e .prettierrc ]
+# 	then
+# 		npm install --save-dev 
+
+# Eslint support
+
+if [ -e .eslintrc.json ]
+	then
+		npm install --save-dev typescript-eslint
+	else
+		npm install --save-dev tslint
+fi
+
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Application and component development
+
+# React support
+
+# Vue support
+
+# Angular support
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Bundlers
+
+# Browserify
+ 
+# Webpack support
+
+npm install ts-loader --save-dev
+
+# Parcel support
+
+# Rollup support
+
+
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Transpiling
+
+# Babel support
+
+@babel/preset-typescript
+
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# UI Testing
+
+# Storybook support
+
+if [ -d .storybook ]
+	then
+		npm install --save-dev @storybook/preset-typescript
+fi
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Snapshot Test=s
+
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Unit Tests
+
+# Jest support
+
+npm install --save-dev ts-jest
+
+# Karma support
+
+# Jasmine Support
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Contract Tests
+
+# CucumberJS Support
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Regression Tests
+
+# Selenium Support
+
+# Puppeteer Support
