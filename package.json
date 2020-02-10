@@ -1,0 +1,24 @@
+{
+  "name": "modular-dependency-loader",
+  "version": "1.0.0",
+  "description": "An interactive configuration builder for an installer that runs bash scripts to quickly bootstrap dependencies for the modern javascript development environment.",
+  "main": "index.js",
+  "dependencies": {
+    "js-yaml": "^3.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewstokeley/modular-dependency-loader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewstokeley/modular-dependency-loader/issues"
+  },
+  "homepage": "https://github.com/matthewstokeley/modular-dependency-loader#readme"
+}
