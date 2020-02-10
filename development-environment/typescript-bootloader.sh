@@ -48,12 +48,13 @@ fi
 # Browserify
  
 # Webpack support
-
 npm install ts-loader --save-dev
 
 # Parcel support
+npm install --save-dev parcel-plugin-typescript
 
 # Rollup support
+npm install --save-dev rollup-plugin-typescript2
 
 
 
@@ -62,7 +63,10 @@ npm install ts-loader --save-dev
 
 # Babel support
 
-@babel/preset-typescript
+if [ -f .babelrc ]
+	then
+		npm install --save-dev @babel/preset-typescript
+fi
 
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

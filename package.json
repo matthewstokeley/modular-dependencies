@@ -4,7 +4,8 @@
   "description": "An interactive configuration builder for an installer that runs bash scripts to quickly bootstrap dependencies for the modern javascript development environment.",
   "main": "index.js",
   "dependencies": {
-    "js-yaml": "^3.13.1"
+    "js-yaml": "^3.13.1",
+    "vue": "^2.6.11"
   },
   "devDependencies": {},
   "scripts": {
