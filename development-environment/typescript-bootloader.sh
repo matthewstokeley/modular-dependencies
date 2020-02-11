@@ -48,7 +48,10 @@ fi
 # Browserify
  
 # Webpack support
-npm install ts-loader --save-dev
+if [ -f config.js ]
+	then
+		npm install ts-loader --save-dev
+fi
 
 # Parcel support
 npm install --save-dev parcel-plugin-typescript
