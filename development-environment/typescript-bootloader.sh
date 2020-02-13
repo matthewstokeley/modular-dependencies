@@ -59,8 +59,6 @@ npm install --save-dev parcel-plugin-typescript
 # Rollup support
 npm install --save-dev rollup-plugin-typescript2
 
-
-
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Transpiling
 
